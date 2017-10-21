@@ -6,7 +6,7 @@ from django.db import models
 class Programming(models.Model):
     nama = models.CharField(max_length=100)
     describ = models.CharField(max_length=100)
-
+    
 
     def __unicode__(self):
         return self.nama
